@@ -20,3 +20,18 @@ form {
     min-width: 300px;
     width: 60vh;
 }
+fieldset {
+    border: none;
+    padding: 2rem 0 2 rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type { /*You can select the last element of a specific type using this CSS pseudo-class*/
+    border-bottom: none;
+}
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+.inline {
+    width: unset;
+}
