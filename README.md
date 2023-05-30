@@ -1,2 +1,2 @@
 # registration-from
- registration form sample
+a simple registration form
